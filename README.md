@@ -1,68 +1,90 @@
-# React Template
+# React + TypeScript + Vite + Tailwind Template
 
-A modern, performant React template with TypeScript, Tailwind CSS, and authentication built-in.
+A minimal starter template for React projects with TypeScript, Vite, and Tailwind CSS.
 
 ## Features
 
-- ⚡️ **React 18** with Vite for fast development and builds
-- 🎨 **Tailwind CSS** with dark mode support
-- 📘 **TypeScript** for type safety
-- 🔒 **Clerk** for authentication
-- 🔄 **TanStack Query** for data fetching
-- 🛣️ **React Router** for navigation
-- 🔍 **ESLint** for code quality
-- 📦 **PNPM** for fast, disk-efficient package management
+- ⚡️ [React 18](https://reactjs.org/)
+- 🦾 [TypeScript](https://www.typescriptlang.org/)
+- 📦 [Vite](https://vitejs.dev/)
+- 🎨 [Tailwind CSS 4](https://tailwindcss.com/)
+- 🎭 CSS variables for theming
+- 🌓 Light/dark mode support
+- 💡 Component-based architecture
 
 ## Getting Started
 
-1. Clone this template:
+### Clone and Install
+
 ```bash
+# Clone the template
 git clone https://github.com/yourusername/react-template.git my-project
+
+# Navigate to the project
 cd my-project
-```
 
-2. Install dependencies:
-```bash
+# Install dependencies
+npm install
+# or
 pnpm install
+# or
+yarn install
 ```
 
-3. Create a `.env.local` file in the root directory:
-```env
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key_here
-```
+### Development
 
-4. Start the development server:
 ```bash
+# Start the development server
+npm run dev
+# or
 pnpm dev
+# or
+yarn dev
+```
+
+### Build
+
+```bash
+# Build for production
+npm run build
+# or
+pnpm build
+# or
+yarn build
 ```
 
 ## Project Structure
 
 ```
-src/
-  ├── assets/      # Static assets
-  ├── components/  # Reusable components
-  ├── pages/       # Page components
-  ├── types/       # TypeScript types
-  ├── App.tsx      # Main app component
-  ├── main.tsx     # Entry point
-  └── index.css    # Global styles
+/
+├── public/           # Static assets
+├── src/
+│   ├── components/   # Reusable UI components
+│   ├── assets/       # Images, fonts, etc.
+│   ├── App.tsx       # Main application component
+│   ├── main.tsx      # Application entry point
+│   └── index.css     # Global styles and theme variables
+├── index.html        # HTML template
+├── tsconfig.json     # TypeScript configuration
+└── vite.config.ts    # Vite configuration
 ```
 
-## Environment Variables
+## CSS Variables
 
-- `VITE_CLERK_PUBLISHABLE_KEY`: Your Clerk publishable key
+This template uses CSS variables for theming. You can find all the variables in `src/index.css`.
 
-## Scripts
+### Theme Colors
 
-- `pnpm dev`: Start development server
-- `pnpm build`: Build for production
-- `pnpm preview`: Preview production build
-- `pnpm lint`: Run ESLint
+- `--color-primary`: Primary brand color
+- `--color-primary-hover`: Hover state for primary elements
+- `--color-select`: Selection/focus color
 
-## Styling
+### Light/Dark Mode
 
-This template uses Tailwind CSS with system-driven dark mode support. The color scheme automatically adjusts based on system preferences.
+The template supports light and dark mode through CSS variables:
+
+- Light mode: `--color-background-light`, `--color-surface-light`, etc.
+- Dark mode: `--color-background-dark`, `--color-surface-dark`, etc.
 
 ## License
 

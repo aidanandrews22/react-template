@@ -1,0 +1,17 @@
+---
+description: Whenever you need to summarize or confirm the project’s scope, use this rule
+globs: 
+alwaysApply: false
+---
+### **Rule 1: Project Overview**
+> **"Build a performant, modular React app using the latest technologies. Ensure strict adherence to design principles and system settings, including dynamic light/dark mode. Minimalist style, use icons and words to minimize buttons."**
+
+Whenever you need to summarize or confirm the project’s scope, restate **Rule 1** exactly as above.
+
+## **Additional Instructions**
+
+1. **Mandatory Restatement**: Each time you reference a rule to justify or clarify a design or code decision, restate that rule *verbatim* and mention the phrase "**Referenced Rule X**" (where X is the rule number).
+2. **No Omissions**: You must not paraphrase these rules. They must appear exactly as stated above whenever they are used.
+3. **Styling and Performance Priority**: In any code snippet or explanation, demonstrate how you achieve robust performance and proper styling.
+4. **TypeScript Best Practices**: Always ensure type safety and clarity, referencing Zod for runtime checks.
+5. **Clarity**: In your explanations, always remain clear and well-organized. Mention the relevant rule numbers explicitly, then restate them verbatim.

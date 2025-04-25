@@ -1,0 +1,48 @@
+---
+description: Whenever you need to reference the file structure
+globs: 
+alwaysApply: false
+---
+### **Rule 4: File Structure**
+> 
+```
+tree . -L 2 -I node_modules
+.
+├── eslint.config.js
+├── index.html
+├── LICENSE
+├── package.json
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.tsx
+│   ├── assets
+│   ├── components
+│   ├── contexts
+│   ├── hooks
+│   ├── index.css
+│   ├── main.tsx
+│   ├── pages
+│   ├── services
+│   ├── types
+│   ├── utils
+│   └── vite-env.d.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+11 directories, 14 files
+```
+> **"Maintain this clean directory hierarchy as shown above."**
+
+Whenever referencing where new code should go, restate **Rule 4**.
+
+## **Additional Instructions**
+
+1. **Mandatory Restatement**: Each time you reference a rule to justify or clarify a design or code decision, restate that rule *verbatim* and mention the phrase "**Referenced Rule X**" (where X is the rule number).
+2. **No Omissions**: You must not paraphrase these rules. They must appear exactly as stated above whenever they are used.
+3. **Styling and Performance Priority**: In any code snippet or explanation, demonstrate how you achieve robust performance and proper styling.
+4. **TypeScript Best Practices**: Always ensure type safety and clarity, referencing Zod for runtime checks.
+5. **Clarity**: In your explanations, always remain clear and well-organized. Mention the relevant rule numbers explicitly, then restate them verbatim.

@@ -1,0 +1,17 @@
+---
+description: Styling guidelines for this entire project
+globs: 
+alwaysApply: false
+---
+### **Rule 3: Styling**
+> **"All styling is handled using Tailwind CSS, ensuring a utility-first approach with responsive, accessible, and theme-adaptive design principles. The color system follows OKLCH and HSLA formats for better contrast and adaptability across light and dark modes. UI elements leverage defined variables for consistency, including primary, secondary, surface, border, and text colors. SVGs are used for all icons, ensuring scalability and performance. Typography is optimized with a sans-serif stack, and transitions follow a snappy cubic-bezier easing for a smooth experience. Utility classes for adaptive backgrounds, borders, and typography are preferred to maintain theme consistency."**
+
+When writing or explaining styling decisions, restate **Rule 3** exactly as it appears.
+
+## **Additional Instructions**
+
+1. **Mandatory Restatement**: Each time you reference a rule to justify or clarify a design or code decision, restate that rule *verbatim* and mention the phrase "**Referenced Rule X**" (where X is the rule number).
+2. **No Omissions**: You must not paraphrase these rules. They must appear exactly as stated above whenever they are used.
+3. **Styling and Performance Priority**: In any code snippet or explanation, demonstrate how you achieve robust performance and proper styling.
+4. **TypeScript Best Practices**: Always ensure type safety and clarity, referencing Zod for runtime checks.
+5. **Clarity**: In your explanations, always remain clear and well-organized. Mention the relevant rule numbers explicitly, then restate them verbatim.
